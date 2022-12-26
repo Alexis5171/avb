@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  background-image:
+  url("imagesavb.jpeg");
+  width: 100%;
+  height:100%;
+}
+
+
+.navigation {
+  /*box-sizing: border-box;*/
+  background-color: #3587A4;
+  /*overflow: auto;*/
+  padding: auto;
+  height: auto;
+  width: 100%;
+  /*z-index: 999;*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image:
+  url("kweku.jpeg");
+
+}
+
+#row{
+  display: inline-block;
+  height: 98%;
+  width: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-left: 0;
+  padding: auto;
+  background-color: white;
+}
+
+a {
+  /*padding: 5;
+  margin: auto;
+  background-image:
+  url("july.jpeg");*/
+  border: 1px hidden;
+  border-radius: 4px;
+  color: magenta;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.squareb {
+  background-color: white;
+  position: relative;
+  top: -60px;
+  right: 10px;
+  color: #FFF;
+  display:flex;
+  height: auto;
+  width: auto;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-align: right;
+  margin: auto 10px auto 870px;
+  padding: 20px 8px 10px 18px;
+  text-transform: uppercase;
+
+}
+
+li {
+  font-family: verdana;
+  font-style: italic;
+  display: inline-block;
+  width: 100%;
+  height: 8px;
+  text-align: right;
+  position:relative;
+  left: 40px;
+  text-decoration: none;
+}
+
+img{
+  height: 250px;
+  width: 24%;
+  margin: 20px 2px;
+  border: 1px hidden;
+  border-radius: 10px;
+}
+
+a:hover{
+  color:
+   hotpink;
+  background-color: white;
+}
+h2{
+  font-size: 30px;
+  font-style: italic;
+  font-family:'Roboto' verdana;
+  text-align: center;
+  color: deeppink;
+}
+
+}
+
+h3{
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-style:
+}
+
+section{
+  margin-top: 70px;
+}
+
+.contact{
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  background-image:
+  url("july.jpeg");
+  border-radius: 5px;
+  text-align: center;
+}
