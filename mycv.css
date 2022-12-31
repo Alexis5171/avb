@@ -1,9 +1,15 @@
 body{
   margin: 0;
-  background-image:
-  url("imagesavb.jpeg");
+  /*background-image:
+  url("forest.jpeg")*/;
+  background-color: cornsilk;
+  background-size: cover;
   width: 100%;
   height:100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 }
 
 
@@ -12,26 +18,26 @@ body{
   background-color: #3587A4;
   /*overflow: auto;*/
   padding: auto;
-  height: auto;
+  height: 70px;
   width: 100%;
   /*z-index: 999;*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  flex-shrink: auto;
   background-image:
-  url("kweku.jpeg");
-
+  url("styled.jpg");
 }
 
 #row{
-  display: inline-block;
-  height: 98%;
+  display: inline-flex;
+  height: auto;
   width: auto;
-  text-align: center;
-  margin-top: auto;
-  margin-left: 0;
+  text-align: justify;
+  margin: auto;
+  margin-left: 3em;
   padding: auto;
-  background-color: white;
+  background-color: ;
 }
 
 a {
@@ -41,15 +47,19 @@ a {
   url("july.jpeg");*/
   border: 1px hidden;
   border-radius: 4px;
-  color: magenta;
+  color: gray;
   font-weight: bold;
   font-style: italic;
+  margin: auto 10px;
+  padding: auto;
+  text-decoration: none;
+
 }
 
 .squareb {
-  background-color: white;
+  background-color: ;
   position: relative;
-  top: -60px;
+  top: 0px;
   right: 10px;
   color: #FFF;
   display:flex;
@@ -57,13 +67,15 @@ a {
   width: auto;
   font-family: 'Oxygen', sans-serif;
   font-size: 1em;
-  font-weight: 300;
-  letter-spacing: 4px;
+  font-weight: 30;
   text-align: right;
-  margin: auto 10px auto 870px;
+  margin: 10px auto auto auto;
   padding: 20px 8px 10px 18px;
   text-transform: uppercase;
-
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 li {
@@ -81,22 +93,23 @@ li {
 img{
   height: 250px;
   width: 24%;
-  margin: 20px 2px;
+  margin: auto 2px;
   border: 1px hidden;
   border-radius: 10px;
+  padding-top: 4em;
 }
 
 a:hover{
-  color:
-   hotpink;
-  background-color: white;
+  color:snow;
+  background-color: burlywood;
+  text-decoration: none;
 }
 h2{
   font-size: 30px;
   font-style: italic;
   font-family:'Roboto' verdana;
   text-align: center;
-  color: deeppink;
+  color: sienna;
 }
 
 }
@@ -108,15 +121,18 @@ h3{
 }
 
 section{
-  margin-top: 70px;
+  margin-top: 2em;
 }
 
 .contact{
+  font-size: 1.5em;
+  color: sienna;
   height: 100px;
   width: 100%;
   border: 1px solid black;
   background-image:
-  url("july.jpeg");
+  url("style.jpg");
   border-radius: 5px;
   text-align: center;
+  background-color: saddlebrown;
 }
